@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  background-color: #f0f8ff;
+}
+
+h1 {
+  font-family: 'Sacramento', cursive;
+  font-size: 90px;
+  margin-top: 50px auto 0px auto;
+  color: #66BFBF;
+}
+
+h2 {
+  color: #66BFBF;
+   text-align: center;
+   padding:10px;
+
+}
+h3{ color:#11999E;}
+p{
+  line-height: 2;
+}
+hr{
+  border:dotted #dcdcdc 6px;
+  border-bottom: none;
+  width:4%;
+  margin: 100px auto;
+}
+a{
+  color:#11999E;
+  margin:10px 20px;
+  text-decoration: none;
+}
+a:hover{
+  color:#EAF6F6;
+}
+.top {
+  background-color: #E4F9F5;
+  ;
+
+
+}
+
+.img1 {
+  position: relative;
+  left:300px;
+  float:left;}
+  .img2{
+    position: relative;
+    float:right;
+  }
+  
+
+.middle {
+  margin:100px 0;
+
+}
+.bottom {
+background-color: #66BFBF;
+padding: 50px 0 20px;
+}
+
+.skill-row {
+  width:50%;
+margin:100px auto 100px auto;
+text-align: left;
+line-height: 2;
+
+}
+.contact-message{
+  width:40%;
+  margin:40px auto 60px;
+}
+.copyright{
+  color:#EAF6F6;
+  font-size: 1em;
+  padding:20px 0;
+}
+.web-image{
+  width:25%;
+float:left;
+margin-right: 30px;
+
+}
+.book-image{
+width:25%;
+float:right;
+margin-left: 30px;
+
+}
+
+
+.myButton {
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	background-color:#599bb3;
+	border-radius:15px;
+	border:1px solid #29668f;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	background-color:#408c99;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
